@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Inter&family=Montserrat:wght@200&display=swap');
+.page3 {
+    width: 405.688px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 804px;
+    left: 70px;
+    margin-bottom: 10px;
+}
+
+.page3 p {
+    color: #FFF;
+    font-family: ' Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 335.742px;
+}
+
+.page3 img {
+    width: 49.962px;
+    height: 50px;
+    flex-shrink: 0;
+}

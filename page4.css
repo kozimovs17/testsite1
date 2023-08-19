@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Inter&family=Montserrat:wght@200&display=swap');
+
+.page4 {
+    width: 1299px;
+    height: 160px;
+    flex-shrink: 0;
+    /* border: 2px solid blue; */
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(196, 196, 196, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location {
+    width: 316.756px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location img {
+    width: 49.962px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.location .dt1 {
+    width: 246.81px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.location .dt1 span {
+    width: 107.917px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.location .dt1 p {
+    width: 246.81px;
+    color: #FFF;
+    font-family: ' Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.date {
+    width: 290.776px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date .dt2 {
+    width: 220.83px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.date .dt2 span {
+    width: 59.954px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.date .dt2 p {
+    width: 220.83px;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.type {
+    width: 232.821px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type .dt3 {
+    width: 163.245px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dt3 span {
+    width: 162.875px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dt3 p {
+    width: 137px;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

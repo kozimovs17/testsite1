@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Inter&family=Montserrat:wght@200&display=swap');
+
+.page2 {
+    width: 622px;
+    height: 617px;
+    flex-shrink: 0;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 338px;
+    top: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.page2 img{
+    position: absolute;
+    z-index: -1;
+}
+.rasm1{
+    position: absolute;
+    top: 236px;
+    left: 0;
+}
+.rasm2{
+    position: absolute;
+    top: 236px;
+    right: 0px;
+
+}
+.rasm3{
+position: absolute;
+top: 535px;
+left: 0;
+}

@@ -12,6 +12,15 @@
     align-items: center;
 }
 
+.page4-info {
+    width: 940.276px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .location {
     width: 316.756px;
     height: 58px;
@@ -127,4 +136,145 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.page4-btn {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #17C2EC;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media(max-width: 600px) {
+    .page4 {
+        width: 306px;
+        height: 242px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page4-info {
+        width: 203.276px;
+        height: 131px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .location {
+        width: 187.031px;
+        height: 34px;
+    }
+
+    .location img {
+        width: 29.977px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .location .dt1 {
+        width: 147px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .location .dt1 span {
+        width: 66px;
+        font-size: 14px;
+    }
+
+    .location .dt1 p {
+        width: 147px;
+        font-size: 14px;
+    }
+
+    .date {
+        width: 187px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .date .dt2 {
+        width: 147.023px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .date .dt2 span {
+        width: 39.916px;
+        font-size: 14px;
+    }
+
+    .date .dt2 p {
+        width: 147.023px;
+        font-size: 14px;
+    }
+
+    .date img {
+        width: 29.977px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .type {
+        width: 187px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .type .dt3 {
+        width: 147.023px;
+        height: 34px;
+        flex-shrink: 0;
+
+    }
+
+    .dt3 span {
+        width: 162.875px;
+        font-size: 14px;
+    }
+
+    .dt3 p {
+        width: 137px;
+        font-size: 14px;
+    }
+
+    .type img {
+        width: 29.977px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .page6-btn {
+        display: flex;
+        width: 150px;
+        height: 50px;
+        padding: 20px 25px;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #17C2EC;
+        color: #FFF;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 }

@@ -4,7 +4,7 @@
     width: 622px;
     height: 617px;
     flex-shrink: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
     left: 338px;
     top: 146px;
@@ -43,9 +43,9 @@
         width: 306px;
         height: 309px;
         flex-shrink: 0;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         position: relative;
-        left: 20px;
+        left: 0px;
         top: -150px;
         display: flex;
         justify-content: center;

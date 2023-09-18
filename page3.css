@@ -7,8 +7,8 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 812px;
-    left: 35px;
+    top: 804px;
+    left: 70px;
     margin-bottom: 10px;
 }
 
@@ -26,4 +26,30 @@
     width: 49.962px;
     height: 50px;
     flex-shrink: 0;
+}
+
+@media(max-width: 600px){
+    .page3 {
+        width: 239px;
+        height: 30px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 868px;
+        left: 75px;
+        margin-bottom: 0px;
+    }
+    
+    .page3 p {
+        width: 199px;
+        font-size: 14px;
+    }
+    
+    .page3 img {
+        width: 29.977px;
+        height: 30px;
+        flex-shrink: 0;
+    }
 }

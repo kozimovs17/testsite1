@@ -193,3 +193,134 @@
     left: 105px;
     border: none;
 }
+
+@media(max-width: 600px) {
+    .page8 {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 35px;
+        position: relative;
+    }
+
+    .dt12 {
+        width: 375px;
+        height: auto;
+        flex-shrink: 0;
+        /* border: 1px solid red; */
+        align-items: center;
+        gap: 40px;
+    }
+
+    .dt12 h1 {
+        width: 230px;
+        font-size: 24px;
+        position: absolute;
+        top: 35px;
+        left: 73px;
+    }
+
+    .dt13 {
+        width: 321px;
+        height: 465px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .frame1 {
+        width: 305px;
+        height: 87px;
+    }
+
+    .frame1 p {
+        font-size: 14px;
+    }
+
+    .frame1 input {
+        width: 305px;
+        height: 50px;
+        border-radius: 18px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .frame2 {
+        width: 321px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .frame2 h2 {
+        font-size: 14px;
+    }
+
+    .frame2 p {
+        font-size: 14px;
+    }
+
+    .inp {
+        width: 305px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inp input {
+        width: 305px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .inp button {
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .dt14 {
+        width: 305px;
+        height: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dt14 p {
+        font-size: 14px;
+    }
+
+    .dt14 a {
+        font-size: 14px;
+    }
+
+    .dt15 {
+        width: 305px;
+        height: 437.344px;
+        flex-shrink: 0;
+        position: relative;
+        margin-top: 115px;
+    }
+
+    .dt15 img {
+        width: 289.028px;
+        height: 418.329px;
+        flex-shrink: 0;
+    }
+
+    .dt15 button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 49.34px;
+        left: 50px;
+        border: none;
+    }
+}

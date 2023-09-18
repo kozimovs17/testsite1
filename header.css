@@ -140,7 +140,7 @@ header button {
     line-height: normal;
 }
 
-button {
+.header-btn {
     display: inline-flex;
     padding: 20px 26px;
     align-items: flex-start;
@@ -258,7 +258,7 @@ button {
         line-height: normal;
     }
 
-    button {
+    .header-btn {
         gap: 10px;
         font-size: 15px;
         margin-left: 55px;

@@ -147,3 +147,109 @@
     font-weight: 700;
     line-height: normal;
 }
+
+@media(max-width: 600px) {
+    .page7 {
+        width: 375px;
+        height: 1026px;
+    }
+
+    .page7 .title2 {
+        width: 300px;
+        height: 158px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title2 p {
+        width: 265px;
+        height: 56px;
+        font-size: 24px;
+    }
+
+    .title2 span {
+        width: 300px;
+        height: 85px;
+        font-size: 4px;
+    }
+
+    .dt9 {
+        width: 276px;
+        height: 744px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dt10 {
+        width: 276px;
+        height: 280px;
+        border-radius: 20px 80px 20px 20px;
+        background: rgba(196, 196, 196, 0.20);
+        padding: 20px;
+    }
+
+    .dt10 img {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .dt10 p {
+        width: 172px;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .dt10 span {
+        width: 235px;
+        height: 61px;
+        font-size: 12px;
+    }
+
+    .dt10 button {
+        width: 94px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .dt10 button img {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .dt11 {
+        width: 188px;
+        height: 202px;
+        border-radius: 20px;
+        border: 2.994px solid rgba(255, 255, 255, 0.50);
+        padding: 20px;
+    }
+
+    .dt11 img {
+        width: 58.981px;
+        height: 58.981px;
+        flex-shrink: 0;
+    }
+
+    .dt11 p {
+        width: 156px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .dt11 button {
+        width: 105px;
+        height: 22.542px;
+        font-size: 12px;
+    }
+
+    .dt11 button img {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+}
